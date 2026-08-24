@@ -22,7 +22,7 @@
 ### 环境要求
 
 - Python 3.12+（已验证环境：Python 3.12.4 / Anaconda）
-- 依赖见 [requirements.txt](requirements.txt)（版本已对齐本机验证环境，可复现）
+- 依赖见 [requirements.txt](requirements.txt)
 
 ### 安装与运行
 
