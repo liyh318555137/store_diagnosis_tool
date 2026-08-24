@@ -1,0 +1,10 @@
+# ============================================================
+# 项目配置（pytest 等工具的配置统一放这里，TOML 规范强制 UTF-8，
+# 避免 Windows 下 .ini 文件按 GBK 读取导致中文注释报错）
+# ============================================================
+
+[tool.pytest.ini_options]
+# 项目根目录加入模块搜索路径（utils / conftest 可直接导入，无需 sys.path 补丁）
+pythonpath = ["."]
+# 测试文件沿用项目现有命名（test_*.py），无需指定 testpaths
+# 运行方式（Windows Git Bash）：/d/Anaconda/python.exe -m pytest -q

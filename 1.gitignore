@@ -1,0 +1,18 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器本地配置
+.vscode/
+.claude/
+
+# 日志
+logs/*.log
+
+# 开发依赖
+requirements-dev.txt
+
+# 本地临时文件
+*.xlsx
+*.csv
