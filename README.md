@@ -1,1 +1,0 @@
-# store_diagnosis_tool
